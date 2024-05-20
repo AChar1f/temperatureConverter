@@ -5,7 +5,7 @@ function f2C() {
         alert('Please Insert a Valid Input.')
     } else {
         let celsius = (parseFloat(fahrenheit) -32) * 5 / 9
-        output.value = (fahrenheit + ' fahrenheit converts to ' + celsius.toFixed(2) + ' celsius ')
+        output.value = (fahrenheit + ' Fahrenheit converts to ' + celsius.toFixed(2) + ' Celsius ')
     } 
          
 }
@@ -16,7 +16,7 @@ function c2F() {
         alert('Please Insert a Valid Input.')
     } else {
         let fahrenheit = (parseFloat(celsius) * 9 / 5) + 32
-        output.value = (celsius + ' celsius converts to ' + fahrenheit.toFixed(2) + ' fahrenheit ')
+        output.value = (celsius + ' Celsius converts to ' + fahrenheit.toFixed(2) + ' Fahrenheit ')
     } 
 }
 
